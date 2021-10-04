@@ -1,0 +1,50 @@
+   
+.wrapper2 .thegirl-img img {
+  height: 500px;
+  margin-top: -50px;
+}
+.wrapper2 {
+  margin-top: 300px;
+  margin-left: -100px;
+  display: flex;
+  justify-content: space-around;
+}
+.wrapper2 .welcome-content h2 {
+  font-size: 28px;
+  font-family: "Lilita One", cursive;
+  margin-top: 60px;
+}
+.wrapper2 .welcome-content h2 span {
+  color: #278aff;
+}
+.wrapper2 .welcome-content p {
+  font-family: "Inconsolata", monospace;
+  color: #6c6c6c;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.wrapper2 .welcome-content h3 {
+  font-family: "Be Vietnam", sans-serif;
+  font-weight: 800;
+  color: #278aff;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.wrapper2 .welcome-content button {
+  color: #fff;
+  background-color: #278aff;
+  padding: 10px 30px;
+  font-size: 16px;
+  border: none;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-family: "Be Vietnam", sans-serif;
+  font-weight: bold;
+}
+.wrapper2 .welcome-content button:hover {
+  transform: translateY(-10px);
+}
+.wrapper2 .welcome-content button:hover {
+  transform: translateY(-6px);
+}

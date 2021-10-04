@@ -1,0 +1,271 @@
+#container {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://images2.alphacoders.com/853/853424.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper1 {
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 110px;
+}
+.header {
+  width: 90%;
+  height: 120px;
+  background-color: #121212;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-left: 62px;
+  padding-right: 62px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  animation-name: animationmain3;
+  animation-duration: 1s;
+}
+.header .header-content .logo {
+  margin-top: 18px;
+}
+.header .header-content .logo .logoword-pri {
+  color: #fff;
+  font-family: "Lilita One", cursive;
+  font-weight: lighter;
+  font-size: 40px;
+}
+.header .header-content .logo .logoword-sub {
+  color: #278aff;
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+}
+.header .header-content .navbar ul li {
+  list-style: none;
+  display: inline-flex;
+  justify-content: space-around;
+  margin-left: 60px;
+  color: #fff;
+  font-family: "Lilita One", cursive;
+  margin-top: 50px;
+  font-size: 18px;
+}
+.header .header-content .navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s;
+}
+.header .header-content .navbar ul li a:hover {
+  color: #278aff;
+  border-bottom: 1px solid #278aff;
+  padding-bottom: 10px;
+}
+
+.header .header-content {
+  display: flex;
+  justify-content: space-between;
+}
+.main-content .word-content h3 {
+  color: #278aff;
+  font-family: "Lilita One", cursive;
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 5px;
+  animation-name: animationmain;
+  animation-duration: 1s;
+}
+.main-content .word-content h1 {
+  color: #fff;
+  font-family: "Lilita One", cursive;
+  font-size: 60px;
+  animation-name: animationmain;
+  animation-duration: 1s;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.main-content .word-content h1 span {
+  color: #278aff;
+}
+.main-content .word-content p {
+  color: #fff;
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  font-size: 24px;
+  animation-name: animationmain;
+  animation-duration: 1s;
+}
+.main-content .word-content a button {
+  color: #fff;
+  background-color: #278aff;
+  padding: 15px 30px;
+  font-size: 16px;
+  border: none;
+  font-family: "Lilita One", cursive;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+  animation-name: animationmain;
+  animation-duration: 1s;
+}
+.main-content .word-content a button:hover {
+  transform: translateY(-10px);
+}
+.main-content .word-content a button:active {
+  transform: translateY(-6px);
+}
+@keyframes animationmain {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes animationmain3 {
+  0% {
+    opacity: 0;
+    transform: translateY(-200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.bxh {
+  clip-path: polygon(
+    0% 0%,
+    37% 0,
+    47% 24%,
+    57% 0,
+    100% 0,
+    100% 75%,
+    0 51%,
+    0 100%,
+    39% 100%,
+    48% 78%,
+    59% 100%,
+    100% 100%,
+    0 0,
+    0% 39%,
+    0 71%,
+    100% 65%,
+    100% 10%,
+    100% 29%,
+    100% 44%,
+    100% 100%
+  );
+  margin-top: 150px;
+
+  width: 100vw;
+  height: 90vh;
+  background-image: url("https://s3-alpha-sig.figma.com/img/d78b/a1e3/b93137fa04ecfbab94b8d84ae35fc99e?Expires=1633305600&Signature=APYfBH2jDR52PiMvS0-zIyaLNb2SixYSW2JAN5KBgOPZybCvJaBxaGCLJknRj1GFyS1tAOsWa95HdWO38cK9fCIxZ6CcBdQ0EhuFolMkhXeuLmdyearrki-n6fkdSB0mWT6gExMxYt2OspNuTpI7LgIaKLuv1uJH-nfQFaa27uQUpG4D0G9r9v7uC-660NuIOcrbT6Umenk2NdDEyol6TUREzbGwgPAC5dC4O6JQ9b7OrX8vvahPItIPg7s9K8AjFd3bkovegsjBIqm3BqKkj86uEvLPHVOYg19fnONdV4ny1eszMqnykayq50t3O5H7msuvdecjiHO6HOwr3t9TJQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  /*display: grid;
+  grid-template-columns: auto auto;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topDonate{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  
+  margin: 0 auto;
+
+
+}
+.topLevel{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+
+}
+.welcome{
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+align-items: center;
+flex-direction: column;
+
+display: grid;
+grid-template-columns: auto auto auto auto;
+}
+.welcome .content{
+ margin: 0 auto;
+ grid-column: 1;
+}
+.welcome .content h1,.content h3,.content button{
+  font-family: 'Inconsolata', monospace!important;
+
+}
+button.primary{
+  padding-left: 0px 0px 30px 30px!important;
+}
+.button{
+  color: white!important;
+  padding-top: 15px!important;
+  padding-bottom: 15px!important;
+  padding-left: 50px!important;
+  padding-right: 50px!important;
+  margin-top: 20px!important; 
+  font-size: 15px!important;
+  
+  background-color: #278AFF!important;
+}
+
+.welcome .logo{
+  background: url('https://s3-alpha-sig.figma.com/img/acb8/fa25/2d7b591f629ba9729c956b6f74fc6703?Expires=1633910400&Signature=AzNFqhf0hWjLbL1~SUkz-JVt1M~Bpvn3C5yiUG1zXHaectax2-IE~yc4dPeLzXhurE~IT-05dFVpycHRRgsqz2Kv~b3s8d5mXcCbBVc~rmAVs3U0CKZuyQpLprRC0hlLq4KcQOFvpcNAPDZ44wXknnHEhLzv2y3nuYnKvVAC4KjmRRxO0I6RASeKKjDmHLUxl4AVgYeimlMc9xiCe4kkiHfR8IlYe-2K3CUKSPOhjHti1gOE70esnnSooJt6KPDi1mb44A0VK~5bm9az4-XF8mkhN3sMbGWyjOkbohpig6m7uh~Ry4W780lDeM5goDCBgZOw3fdeihx0vJQAYC179g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+ background-size: contain;
+  width: 150%;
+  height: 100%;
+  background-repeat: no-repeat;
+  grid-column: 3;
+  margin: 0 auto;
+ 
+}
+.footer{
+  width: 100%;
+  height: 100%;
+  background: url('https://s3-alpha-sig.figma.com/img/d78b/a1e3/b93137fa04ecfbab94b8d84ae35fc99e?Expires=1633910400&Signature=XLo0l3A6Illfr2CsMzzCntSn-FLthjlWL7qAOiQocFlLyoQd6bql2aBcJr8nOVBkgVucJ0TNP43dVCp0qevJ9XwyJv3s4l9wlvg~xYj6m6OGxKde-UZr2CBbSeg-6PTUXX4MsIca3rkndLNBGhVp5A7ENu6q3DLbmz7lOZDUinl6WAYPAajU8n2Il8HuaqJeTD0c4lworYu85sJTZv199h~FhfoCYAX6uUngRm4D696nWoVCsNnhiAwgWCd5LaKOuIemE3C~ODNsvRyX5Si7P4R5EsjJ57q4WiApxesigfkjG3hwzMxSd78QBq0g38CCLvIYdRwnrkqkxV53Rno5xw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(9,1fr);
+}
+.footer #logo{
+  width: 100%;
+  height: 100%;
+  grid-column: 2;
+  background-size: contain!important;
+  background: url("https://s3-alpha-sig.figma.com/img/acb8/fa25/2d7b591f629ba9729c956b6f74fc6703?Expires=1633910400&Signature=AzNFqhf0hWjLbL1~SUkz-JVt1M~Bpvn3C5yiUG1zXHaectax2-IE~yc4dPeLzXhurE~IT-05dFVpycHRRgsqz2Kv~b3s8d5mXcCbBVc~rmAVs3U0CKZuyQpLprRC0hlLq4KcQOFvpcNAPDZ44wXknnHEhLzv2y3nuYnKvVAC4KjmRRxO0I6RASeKKjDmHLUxl4AVgYeimlMc9xiCe4kkiHfR8IlYe-2K3CUKSPOhjHti1gOE70esnnSooJt6KPDi1mb44A0VK~5bm9az4-XF8mkhN3sMbGWyjOkbohpig6m7uh~Ry4W780lDeM5goDCBgZOw3fdeihx0vJQAYC179g__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-repeat: no-repeat;
+  top: 50%;
+  transform: translateY(10%);
+}
+.footer h1{
+  text-align: center;
+  top: 50%;
+    transform: translateY(15%);
+    font-weight: 800;
+    color: white;
+    font-family: 'Lilita One', cursive;
+    font-size: 40px
+    ;
+  }
+
+#mxh{
+  grid-column: 2;
+  
+}
+ul li{
+  color: white;
+  font-weight: 700;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  line-height: 30px;
+}
+ul{
+  list-style: none;
+}
